@@ -1,0 +1,21 @@
+# ข้อมูลส่วนตัวของผู้ใช้ — อยู่ที่ ~/Documents/POSN.Computer/ ไม่ควรหลุดเข้ามาที่นี่
+blueprints/
+results/
+index.jsonl
+
+# ไฟล์ข้อสอบและผลลัพธ์ ไม่เก็บใน repo
+*.pdf
+*.png
+ข้อสอบเทียม/
+ไฟล์ข้อสอบ/
+
+# ของชั่วคราวจากการคอมไพล์ LaTeX
+*.aux
+*.log
+*.out
+verify_out.json
+
+# ของที่ Python สร้างเอง
+__pycache__/
+*.pyc
+.DS_Store
