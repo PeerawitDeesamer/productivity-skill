@@ -59,8 +59,8 @@ them.
 Requires Python 3 and [Claude Code](https://claude.com/claude-code).
 
 ```bash
-git clone https://github.com/PeerawitDeesamer/skr-cram-night.git ~/.claude/skills/skr
-bash ~/.claude/skills/skr/install.sh
+git clone https://github.com/PeerawitDeesamer/claude-skills.git ~/code/claude-skills
+bash ~/code/claude-skills/install.sh
 ```
 
 `install.sh` installs `pymupdf` (reading teacher PDFs) and `sympy` (verifying numbers),

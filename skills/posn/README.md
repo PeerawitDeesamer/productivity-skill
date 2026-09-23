@@ -68,8 +68,8 @@ pack.sh           แพ็กไปเครื่องใหม่
 | `/posn-feynman <part> <set> <ข้อ>` | ให้ผู้ใช้อธิบายกลับ วัดว่าเฉลยข้อนั้นดีพอไหม |
 | `/posn-variant <source>` | ออกโจทย์ไอเดียเดิม หน้าตาใหม่ |
 
-**คำสั่งเหล่านี้ `install.sh` ไม่ได้พาไปด้วยตอนย้ายเครื่อง** ต้องก๊อป `~/.claude/commands/posn-*.md`
-กับ `~/.claude/agents/posn-student.md` เอง
+ไฟล์คำสั่งอยู่ที่ `commands/` และ subagent อยู่ที่ `agents/` บนสุดของ repo
+[claude-skills](https://github.com/PeerawitDeesamer/claude-skills) — `install.sh` ของ repo นั้นลิงก์ให้ครบ
 
 ## ข้อมูลของผู้ใช้
 
