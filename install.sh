@@ -2,10 +2,10 @@
 # install.sh — link every skill, command and agent in this repo into ~/.claude,
 # then let posn and skr install what they need (TinyTeX, TH Sarabun New, pymupdf...).
 #
-#   git clone https://github.com/PeerawitDeesamer/claude-skills.git ~/code/claude-skills
-#   bash ~/code/claude-skills/install.sh                # link + install dependencies
-#   bash ~/code/claude-skills/install.sh --skills-only  # link only
-#   bash ~/code/claude-skills/install.sh --check        # report only, change nothing
+#   git clone https://github.com/PeerawitDeesamer/productivity-skill.git ~/code/productivity-skill
+#   bash ~/code/productivity-skill/install.sh                # link + install dependencies
+#   bash ~/code/productivity-skill/install.sh --skills-only  # link only
+#   bash ~/code/productivity-skill/install.sh --check        # report only, change nothing
 #
 # Links, not copies: edit a skill in the repo and Claude Code sees it at once,
 # and `git commit` picks up the change. Anything already at a target that is not
@@ -49,7 +49,7 @@ link() {
   ln -s "$src" "$dst" && ok "$name → repo"
 }
 
-echo "claude-skills — $REPO"
+echo "productivity-skill — $REPO"
 [ "$CHECK" = 1 ] || mkdir -p "$CLAUDE/skills" "$CLAUDE/commands" "$CLAUDE/agents"
 
 echo; echo "skills"

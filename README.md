@@ -1,12 +1,12 @@
-# claude-skills
+# productivity-skill
 
 My [Claude Code](https://claude.com/claude-code) skills in one repo, so a new computer is one clone and one command.
 
 ## Install
 
 ```bash
-git clone https://github.com/PeerawitDeesamer/claude-skills.git ~/code/claude-skills
-bash ~/code/claude-skills/install.sh
+git clone https://github.com/PeerawitDeesamer/productivity-skill.git ~/code/productivity-skill
+bash ~/code/productivity-skill/install.sh
 ```
 
 `install.sh` symlinks everything into `~/.claude/` and then runs the posn and skr installers
@@ -17,7 +17,7 @@ bash ~/code/claude-skills/install.sh
 | `--skills-only` | link only, skip dependencies |
 | `--check` | report what is missing, change nothing |
 
-Because they are symlinks, editing a skill in `~/.claude/skills/<name>` edits the repo. Commit and push from `~/code/claude-skills`.
+Because they are symlinks, editing a skill in `~/.claude/skills/<name>` edits the repo. Commit and push from `~/code/productivity-skill`.
 Anything already in `~/.claude` with the same name is moved to `~/.claude/backup-<date>/`, not deleted.
 
 ## What's inside

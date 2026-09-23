@@ -69,7 +69,7 @@ pack.sh           แพ็กไปเครื่องใหม่
 | `/posn-variant <source>` | ออกโจทย์ไอเดียเดิม หน้าตาใหม่ |
 
 ไฟล์คำสั่งอยู่ที่ `commands/` และ subagent อยู่ที่ `agents/` บนสุดของ repo
-[claude-skills](https://github.com/PeerawitDeesamer/claude-skills) — `install.sh` ของ repo นั้นลิงก์ให้ครบ
+[productivity-skill](https://github.com/PeerawitDeesamer/productivity-skill) — `install.sh` ของ repo นั้นลิงก์ให้ครบ
 
 ## ข้อมูลของผู้ใช้
 
