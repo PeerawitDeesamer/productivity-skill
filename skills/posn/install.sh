@@ -80,7 +80,8 @@ esac
 
 # ---------------------------------------------------------------- 0. skill files
 step "0. Skill files"
-if [ "$SRC_DIR" != "$SKILL_DIR" ]; then
+# compare real paths: SKILL_DIR may be a symlink into a claude-skills clone
+if [ "$(cd "$SRC_DIR" && pwd -P)" != "$(cd "$SKILL_DIR" 2>/dev/null && pwd -P)" ]; then
   if [ "$CHECK_ONLY" = 1 ]; then
     [ -f "$SKILL_DIR/SKILL.md" ] && ok "installed at $SKILL_DIR" || miss "not installed at $SKILL_DIR"
   else

@@ -37,7 +37,8 @@ There are no logs, no reminders and no review schedule.
 ## Install
 
 ```sh
-git clone https://github.com/PeerawitDeesamer/breakdown ~/.claude/skills/breakdown
+git clone https://github.com/PeerawitDeesamer/claude-skills.git ~/code/claude-skills
+bash ~/code/claude-skills/install.sh --skills-only
 ```
 
 On macOS, `test` automatically works around the missing `<bits/stdc++.h>` in Apple clang.
