@@ -1,14 +1,11 @@
 ---
-description: สร้าง POSN C++17 Algorithm Visualizer แบบ interactive (time-travel, memory inspector, Predict Mode, custom testcase) จากชื่ออัลกอริทึม โจทย์ หรือไฟล์ .cpp
+name: spark
+description: Generates an interactive, step-by-step POSN (สอวน.) C++17 Algorithm Visualizer (React + Tailwind Dark IDE UI) with time-travel debugging, live recursion/STL memory inspection, Predict-Next-Step active learning mode, and custom testcase sandbox. Use when the user types /spark, asks to visualize an algorithm, data structure, problem statement, or a local .cpp file, or replies "yes" when offered an interactive visualization.
 argument-hint: [algorithm-name, problem-description, or @file.cpp]
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(open:*), Bash(start:*), Bash(xdg-open:*), Bash(mkdir:*)
 ---
 
-# POSN Active-Learning Algorithm Visualizer (`/visualize`)
-
-**Target:** $ARGUMENTS
-
-(If the target above is empty, use the algorithm or problem from the current conversation; if there is none, ask which one to visualize.)
+# POSN Active-Learning Algorithm Visualizer Skill (`spark`)
 
 ## Objective
 Turn any algorithm, data structure, competitive programming problem, or local C++ (`.cpp`) file into a production-grade, interactive step-by-step Visualizer with Thai explanations tailored for a POSN (สอวน.) Computer Olympiad student.

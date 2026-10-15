@@ -29,7 +29,7 @@ Anything already in `~/.claude` with the same name is moved to `~/.claude/backup
 | [`skr`](skills/skr) | Teacher's PDF sheet → HTML lessons the night before a Thai school test (chem/bio/physics/math) |
 | [`posn`](skills/posn) | Mock สอวน. computer camp-1 exams with answer keys, XeLaTeX + TH Sarabun New, uploaded to Drive |
 | [`breakdown`](skills/breakdown) | A coach for breaking down competitive-programming / LeetCode problems yourself |
-| [`visualize`](skills/visualize) | Interactive step-by-step C++17 algorithm visualizer (Thai, POSN camp 2): time-travel, memory inspector, predict-next-step mode. Also `/visualize` |
+| [`spark`](skills/spark) | Interactive step-by-step C++17 algorithm visualizer (Thai, POSN camp 2): time-travel, memory inspector, predict-next-step mode. Also `/spark` |
 | [`commands/posn-*`](commands) | posn feedback loop: `/posn-score` `/posn-why` `/posn-weakness` `/posn-calibrate` `/posn-feynman` `/posn-variant` |
 | [`agents/posn-student`](agents) | Plays a student who doesn't get it, so you have to explain |
 
