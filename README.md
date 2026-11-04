@@ -30,6 +30,7 @@ Anything already in `~/.claude` with the same name is moved to `~/.claude/backup
 | [`posn`](skills/posn) | Mock สอวน. computer camp-1 exams with answer keys, XeLaTeX + TH Sarabun New, uploaded to Drive |
 | [`breakdown`](skills/breakdown) | A coach for breaking down competitive-programming / LeetCode problems yourself |
 | [`spark`](skills/spark) | Interactive step-by-step C++17 algorithm visualizer (Thai, POSN camp 2): time-travel, memory inspector, predict-next-step mode. Also `/spark` |
+| [`check_storage`](skills/check_storage) | Read-only macOS disk report: which apps (bundle + data + hidden files) and which `~/Documents` folders take the most space. Also `/check_storage` |
 | [`commands/posn-*`](commands) | posn feedback loop: `/posn-score` `/posn-why` `/posn-weakness` `/posn-calibrate` `/posn-feynman` `/posn-variant` |
 | [`agents/posn-student`](agents) | Plays a student who doesn't get it, so you have to explain |
 
